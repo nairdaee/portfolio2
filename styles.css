@@ -211,8 +211,12 @@ footer li{
 footer img{
     width: 20px;
 }
-  
-  
+.typed_wrap {
+  display: block;
+  width:100px;
+  height: auto;
+  padding: 20px; 
+}
 /* small tablet styles */
 @media screen and (min-width: 620px){
   
