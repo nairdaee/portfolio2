@@ -109,7 +109,7 @@ h4{
 }
 .welcome-img img{
     width: 200%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 #portfolio{
     background: var(--primary);
