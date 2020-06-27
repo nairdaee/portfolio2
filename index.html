@@ -70,10 +70,10 @@
       </section>
       <section id="contact">
         <h3>Get In Touch</h3>
-        <form>
-          <input type="text" placeholder='Name'>
-          <input type="email" placeholder='Email'>
-          <textarea placeholder='Your message'></textarea>
+        <form action="https://formspree.io/etadriano2@gmail.com" method="post">
+          <input type="text" placeholder='Name' id="inputName" required="">
+          <input type="email" placeholder='Email' id="inputEmail" required="">
+          <textarea placeholder='Your message' id="inputMessage" required=""></textarea>
           <button class="button">Send message</button>
         </form>
       </section>
@@ -88,6 +88,8 @@
         </div>
       </footer>
       <script src="js/jquery.min.js "></script>
+      <script src="js/contact.js"></script>
+      <script src="js/alertify.js"></script>
       <script src="js/main.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js"></script>
     </body>
